@@ -9,5 +9,12 @@ namespace FibonacciKata.Tests {
 
             result.Should().Be(0);
         }
+
+        [Test]
+        public void Return_1() {
+            var result = Fibonacci.Get(1);
+
+            result.Should().Be(1);
+        }
     }
 }
