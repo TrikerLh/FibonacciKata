@@ -16,5 +16,12 @@ namespace FibonacciKata.Tests {
 
             result.Should().Be(1);
         }
+
+        [Test]
+        public void Return_8() {
+            var result = Fibonacci.Get(6);
+
+            result.Should().Be(8);
+        }
     }
 }
