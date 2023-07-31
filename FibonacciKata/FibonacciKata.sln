@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciKata", "FibonacciKata\FibonacciKata.csproj", "{08EE06A0-5540-44B2-98A7-FFF4328CA8AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciKata.Tests", "FibonacciKata.Tests\FibonacciKata.Tests.csproj", "{5A6D9EAB-335F-4E5B-9B52-709866F5D73D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08EE06A0-5540-44B2-98A7-FFF4328CA8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EE06A0-5540-44B2-98A7-FFF4328CA8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EE06A0-5540-44B2-98A7-FFF4328CA8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EE06A0-5540-44B2-98A7-FFF4328CA8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A6D9EAB-335F-4E5B-9B52-709866F5D73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6D9EAB-335F-4E5B-9B52-709866F5D73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6D9EAB-335F-4E5B-9B52-709866F5D73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6D9EAB-335F-4E5B-9B52-709866F5D73D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34B46400-38CE-497E-94BD-72120489049A}
+	EndGlobalSection
+EndGlobal
