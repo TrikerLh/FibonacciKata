@@ -2,26 +2,15 @@ using FluentAssertions;
 
 namespace FibonacciKata.Tests {
     public class FibonacciShould {
-        [Test]
-        public void Return_0()
+        [TestCase(0, 0)]
+        [TestCase(1, 1)]
+        [TestCase(6, 8)]
+        [TestCase(17, 1597)]
+        public void Return_fibonacci(int number, int expected)
         {
-            var result = Fibonacci.Get(0);
+            var result = Fibonacci.Get(number);
 
-            result.Should().Be(0);
-        }
-
-        [Test]
-        public void Return_1() {
-            var result = Fibonacci.Get(1);
-
-            result.Should().Be(1);
-        }
-
-        [Test]
-        public void Return_8() {
-            var result = Fibonacci.Get(6);
-
-            result.Should().Be(8);
+            result.Should().Be(expected);
         }
     }
 }
